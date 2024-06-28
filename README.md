@@ -1,3 +1,3 @@
 # Dotfiles
 
-My configuration files for Arch Linux.
+Some of my configuration files for Arch Linux.
