@@ -1,0 +1,319 @@
+* {
+	font-size: 20px;
+}
+
+
+
+
+/* 
+
+	Dashboard Styles
+
+*/
+.applications {
+	background: #282828;
+	padding: 8px;
+	border-radius: 16px;
+}
+
+.application {
+	background: none;
+	box-shadow: none;
+	min-height: 42px;
+	transition: opacity 0.2s ease;
+}
+
+.application:hover {
+	opacity: 0.5;
+}
+
+.directories {
+	background: #282828;
+	padding: 8px;
+	border-radius: 16px;
+	transition: opacity 0.2s ease;
+}
+
+.directory {
+	background: none;
+	box-shadow: none;
+	min-height: 32px;
+	transition: opacity 0.2s ease;
+}
+
+.directory:hover {
+	opacity: 0.5;
+}
+
+.time-date {
+	padding: 26px;
+	background: #282828;
+	border-radius: 16px;
+}
+
+.time {
+	font-size: 48px;
+	margin-bottom: -14px;
+	font-weight: 600;
+}
+
+.date {
+	font-size: 24px;
+}
+
+.fetch {
+	background: #282828;
+	padding: 32px;
+	border-radius: 16px;
+}
+
+.weather {
+	background: #282828;
+	padding: 8px 24px 24px 24px;
+	border-radius: 16px;
+}
+
+.current-weather-icon {
+	font-size: 64px;
+}
+
+.current-weather-temp {
+	font-size: 48px;
+	margin-left: 24px;
+	font-weight: 600;
+}
+
+.current-weather-name {
+	font-size: 28px;
+	margin-left: -56px;
+	margin-top: -18px;
+}
+
+.forecast-day {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.forecast-temp {
+	font-weight: 600;
+}
+
+.volume-indicator {
+	background: none;
+	padding: 0;
+	box-shadow: none;
+	min-width: 32px;
+	color: #89B482;
+	transition: opacity 0.2s ease;
+}
+
+.volume-indicator:hover {
+	opacity: 0.5;
+}
+
+.backlight-indicator {
+	min-width: 32px;
+	margin-left: -3px;
+	margin-right: 3px;
+	color: #E78A4E;
+}
+
+.volume-percent {
+	min-width: 48px;
+}
+
+.backlight-percent {
+	min-width: 48px;
+}
+
+.sliders {
+	background: #282828;
+	padding: 24px;
+	border-radius: 16px;
+}
+
+.info {
+	background: #282828;
+	border-radius: 16px;
+	padding: 24px;
+}
+
+.bar * {
+	border-radius: 8px;
+}
+
+.bar .filled {
+	min-width: 16px;
+}
+
+.ram-bar .filled {
+	background: #EA6962;
+}
+
+.cpu-bar .filled {
+	background: #E78A4E;
+}
+
+.bat-bar .filled {
+	background: #D8A657;
+}
+
+.wifi-bar .filled {
+	background: #A9B665;
+}
+
+.sites {
+	background: #282828;
+	padding: 24px;
+	border-radius: 16px;
+}
+
+.site {
+	background: none;
+	padding: 0;
+	box-shadow: none;
+	transition: opacity 0.2s ease;
+}
+
+.site:hover {
+	opacity: 0.5;
+}
+
+.site-icon {
+	font-size: 32px;
+}
+
+.power-button {
+	box-shadow: none;
+	background: #282828;
+	border-radius: 16px;
+	padding: 14px 28px 14px 20px;
+}
+
+.power-button * {
+	font-size: 32px;
+	transition: opacity 0.2s ease;
+}
+
+.power-button:nth-child(1) {
+	color: #EA6962;
+}
+
+.power-button:nth-child(2) {
+	color: #A9B665;
+}
+
+.power-button:nth-child(3) {
+	color: #7DAEA3;
+}
+
+.power-button:nth-child(4) {
+	padding-left: 16px;
+	padding-right: 32px;
+	color: #D8A657;
+}
+
+.power-button:hover * {
+	opacity: 0.5;
+}
+
+.side-buttons {
+	box-shadow: none;
+	background: #282828;
+	border-radius: 16px;
+	padding-right: 72px;
+	padding-left: 52px;
+	transition: color 0.2s ease;
+}
+
+.side-buttons * {
+	font-size: 64px;
+}
+
+.side-buttons:hover {
+	color: rgba(212, 190, 152, 0.5)
+}
+
+
+
+
+
+/* 
+
+	Sidebar Styles
+
+*/
+.sidebar {
+	border-radius: 16px;
+	background: #282828;
+	padding: 16px;
+}
+
+.message {
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 32px;
+	padding-top: 24px;
+}
+
+.titlebar {
+	font-weight: bold;
+	font-size: 28px;
+	background: none;
+	box-shadow: none;
+}
+
+.day-of-week {
+	color: #D3869B;
+}
+
+.day {
+	min-width: 48px;
+	font-size: 24px;
+}
+
+.day.padding {
+	opacity: 0;
+}
+
+.day.current {
+	color: #D8A657;
+}
+
+.todos {
+	margin-top: 64px;
+}
+
+.todo-entry {
+	border: none;
+	box-shadow: none;
+	border-radius: 8px;
+}
+
+.todo-button {
+	box-shadow: none;
+	border-radius: 8px;
+}
+
+.checked {
+	color: #A9B665;
+}
+
+.trash {
+	color: #EA6962;
+}
+
+.notes {
+	background: none;
+	box-shadow: none;
+	transition: opacity 0.2s ease;
+	padding-bottom: 32px;
+}
+
+.notes label {
+	font-size: 64px;
+}
+
+.notes:hover {
+	opacity: 0.5;
+}
